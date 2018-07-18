@@ -40,7 +40,7 @@ public class RedisDao {
                 // seckill被反序列化
                 return seckill;
             }
-            System.out.println(123);
+            
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
         }
